@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = "0.3.3"
   spec.authors       = ["Kir Shatrov", "Aaron Israel"]
   spec.email         = ["shatrov@me.com", "me@a0n.name"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "capistrano task for managin maintenance messages"
+  spec.summary       = "capistrano task for managin maintenance messages"
   spec.homepage      = ""
   spec.license       = "MIT"
 
