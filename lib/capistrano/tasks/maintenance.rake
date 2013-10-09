@@ -10,10 +10,10 @@ namespace :maintenance do
     template = File.read(maintenance_template_path)
     result = ERB.new(template).result(binding)
 
-    put result, "#{shared_path}/system/#{maintenance_basename}.html", :mode => 0644
+    upload! result, "#{shared_path}/system/#{maintenance_basename}.html", :mode => 0644
   end
 
   task :disable, :roles => :web do
-    run "rm -f #{shared_path}/system/#{maintenance_basename}.html"
+    execute "rm", "-f", "#{shared_path}/system/#{maintenance_basename}.html"
   end
 end

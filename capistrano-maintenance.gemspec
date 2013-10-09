@@ -5,9 +5,9 @@ require 'capistrano/maintenance/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "capistrano-maintenance"
-  spec.version       = Capistrano::Maintenance::VERSION
-  spec.authors       = ["Kir Shatrov"]
-  spec.email         = ["shatrov@me.com"]
+  spec.version       = "0.3.3"
+  spec.authors       = ["Kir Shatrov", "Aaron Israel"]
+  spec.email         = ["shatrov@me.com", "me@a0n.name"]
   spec.description   = %q{TODO: Write a gem description}
   spec.summary       = %q{TODO: Write a gem summary}
   spec.homepage      = ""
