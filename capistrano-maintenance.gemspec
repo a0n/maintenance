@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "capistrano-maintenance"
-  spec.version       = "0.3.3"
+  spec.version       = "0.3.4"
   spec.authors       = ["Kir Shatrov", "Aaron Israel"]
   spec.email         = ["shatrov@me.com", "me@a0n.name"]
   spec.description   = "capistrano task for managin maintenance messages"
